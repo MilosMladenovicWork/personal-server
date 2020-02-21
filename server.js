@@ -10,7 +10,7 @@ const port = process.env.PORT
 
 app.use(express.json())
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://server-personal-use.herokuapp.com");
+  res.header("Access-Control-Allow-Origin", "https://www.milosmladenovicwork.ml");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
